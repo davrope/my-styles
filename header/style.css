@@ -1,0 +1,52 @@
+/* 
+1. Position
+2. Box model
+3. Typography
+4. Visuals
+5. Others
+*/
+
+:root{
+    /* Colors */
+    --davrope-green: #27d594;
+    --davrope-pink: #d52768;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    /* font-size: 62.5%; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    /* font-size: 1rem; */
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+header nav .nav-right-section{
+    width: 25%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
